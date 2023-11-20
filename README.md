@@ -2,6 +2,19 @@
 
 # Tyrell Fetch Submission - Forecasting Receipt Amounts for 2022
 
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Key Features](#key-features)
+3. [Objective](#objective)
+4. [Technology Stack](#technology-stack)
+5. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installing and Running the Application](#installing-and-running-the-application)
+6. [Model Training and Visualization](#model-training-and-visualization)
+   - [Key Features](#key-features-1)
+   - [Prerequisites for Replication](#prerequisites-for-replication)
+   - [Running the Notebook](#running-the-notebook)
+
 ## Project Overview
 
 This project is dedicated to forecasting the approximate amount of receipt transactions for the upcoming months in 2022. It employs a custom-built model that uniquely combines various data components to enhance forecasting accuracy. The core of the model's approach lies in its additive combination of trend analysis, seasonal variations, and residual data to construct a comprehensive forecast.
