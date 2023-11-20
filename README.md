@@ -116,6 +116,6 @@ To replicate and further develop the model, the following are required:
 ### Running the Notebook
 
 1. Open `train_model.ipynb` in your preferred Jupyter notebook environment.
-2. Execute the cells in sequence to train the model and view the visualizations.
+2. Execute the cells in sequence to train the model and view the forecasts.
 
 ---
