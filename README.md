@@ -16,7 +16,7 @@
 
 ## Project Overview
 
-This 2022 project aims to forecast the monthly number of scanned receipts, leveraging a TensorFlow model that analyzes trend, seasonal, and residual data, alongside the original time series. 
+This project aims to forecast the monthly number of scanned receipts in 2022, leveraging a TensorFlow model that analyzes trend, seasonal, and residual data, alongside the original time series. 
 The model’s additive approach to incorporating trend, seasonal, and residual elements is designed to offer a more accurate and holistic view of future receipt trends.
 
 ### Model and Forecasting Strategy
