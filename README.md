@@ -23,7 +23,7 @@ The model’s additive approach to incorporating trend, seasonal, and residual e
 
 - **Approach**: Combines trend, seasonal, residual, and original time series data to enhance forecasting accuracy.
 - **Data**: Used a lag of 90 days (around 3 months) to generate features from trend, seasonal, residual, and original time series data for supervised learning.
-- **Visualization**: Plots forecasted values(trend, seasonal, and residual additively) with the original time series for comparison and better understanding of the model's performance.
+- **Visualization**: Plots forecasted values (combined trend, seasonal, and residual additively) with the original time series for comparison and better understanding of the model's performance.
 - **Monthly Aggregation**: Post-prediction, sums up the total receipts for each month and visualizes them in a histogram, offering insights into monthly trends.
 
 The project's outcome is a comprehensive model that not only predicts receipt counts accurately but also visualizes data trends effectively with Streamlit, aiding in informed decision-making.
