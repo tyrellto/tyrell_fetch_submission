@@ -1,8 +1,28 @@
 ---
 
-# Tyrell Fetch Submission
+# Tyrell Fetch Submission - Forecasting Receipt Amounts for 2022
 
-Provide a brief description of your project here.
+## Project Overview
+
+This project is dedicated to forecasting the approximate amount of receipt transactions for the upcoming months in 2022. It employs a custom-built model that uniquely combines various data components to enhance forecasting accuracy. The core of the model's approach lies in its additive combination of trend analysis, seasonal variations, and residual data to construct a comprehensive forecast.
+
+## Key Features
+
+- **Integrated Forecasting Model**: The model additively combines:
+    - **Trend Analysis**: Evaluating long-term trends in receipt amounts to understand overarching market dynamics.
+    - **Seasonal Analysis**: Identifying and measuring seasonal patterns within the data, crucial for capturing regular, periodic fluctuations.
+    - **Residual Analysis**: Analyzing the residuals (differences between observed values and model predictions) to refine and adjust the forecast.
+
+## Objective
+
+The primary aim is to provide a reliable and nuanced forecast of receipt amounts, aiding in better decision-making processes for inventory management, financial planning, and business strategy. The model’s additive approach to incorporating trend, seasonal, and residual elements is designed to offer a more accurate and holistic view of future receipt trends.
+
+## Technology Stack
+
+- **Python**: Primary programming language for data analysis and modeling.
+- **Pandas & NumPy**: Key libraries for efficient data manipulation and numerical operations.
+- **Streamlit**: Interactive web application framework to demonstrate model results.
+- **TensorFlow**: For advanced machine learning model development.
 
 ## Getting Started
 
@@ -60,12 +80,31 @@ This command starts a container from the `mystreamlitapp` image and maps port 85
 
 Open a web browser and navigate to `http://localhost:8501`. You should now see the Streamlit app running.
 
-## Contributing
 
-If you're open to contributions, provide instructions for how others can contribute to your project. Otherwise, you can omit this section.
+## Model Training and Visualization
 
-## License
+The core of the model training and its visual inspection are conducted through the `train_model.ipynb` Jupyter notebook. This notebook contains detailed steps and visualizations essential for understanding and replicating the model.
 
-Specify the license under which your project is released, or refer to the LICENSE file in the repository.
+### Key Features
+
+- **train_model.ipynb**: A Jupyter notebook used for:
+    - Training the forecasting model.
+    - Visual inspection of the model's performance.
+    - Detailed documentation of the methodology and analysis.
+
+### Prerequisites for Replication
+
+To replicate and further develop the model, the following are required:
+
+- **Jupyter Notebook Environment**: An IDE or platform that can run Jupyter notebooks is essential. Options include:
+    - [Google Colab](https://colab.research.google.com/): A free, cloud-based service that supports Jupyter notebooks.
+    - [Visual Studio Code](https://code.visualstudio.com/): With its Jupyter extension, it allows for running and visualizing notebooks.
+    - [JupyterLab](https://jupyter.org/): A web-based interactive development environment for Jupyter notebooks.
+- **Python Libraries**: Ensure that all Python libraries used in `train_model.ipynb` are installed. Typically, these can be found in a `requirements.txt` file.
+
+### Running the Notebook
+
+1. Open `train_model.ipynb` in your preferred Jupyter notebook environment.
+2. Execute the cells in sequence to train the model and view the visualizations.
 
 ---
