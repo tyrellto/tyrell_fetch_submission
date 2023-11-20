@@ -4,8 +4,7 @@
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
-2. [Key Features](#key-features)
-3. [Objective](#objective)
+2. [Model and Forecasting Strategy](#model-and-forecasting-strategy)
 4. [Technology Stack](#technology-stack)
 5. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
@@ -17,18 +16,16 @@
 
 ## Project Overview
 
-This project is dedicated to forecasting the approximate amount of receipt transactions for the upcoming months in 2022. It employs a custom-built model that uniquely combines various data components to enhance forecasting accuracy. The core of the model's approach lies in its additive combination of trend analysis, seasonal variations, and residual data to construct a comprehensive forecast.
+This 2022 project aims to forecast the monthly number of scanned receipts, leveraging a TensorFlow model that analyzes trend, seasonal, and residual data, alongside the original time series. 
+The model’s additive approach to incorporating trend, seasonal, and residual elements is designed to offer a more accurate and holistic view of future receipt trends.
 
-## Key Features
+### Model and Forecasting Strategy
 
-- **Integrated Forecasting Model**: The model additively combines:
-    - **Trend Analysis**: Evaluating long-term trends in receipt amounts to understand overarching market dynamics.
-    - **Seasonal Analysis**: Identifying and measuring seasonal patterns within the data, crucial for capturing regular, periodic fluctuations.
-    - **Residual Analysis**: Analyzing the residuals (differences between observed values and model predictions) to refine and adjust the forecast.
+- **Integrated Data Analysis**: Combines trend, seasonal, residual, and original time series data to enhance forecasting accuracy.
+- **Visualization**: Plots forecasted values with the original time series for comparison and better understanding of the model's performance.
+- **Monthly Aggregation**: Post-prediction, sums up the total receipts for each month and visualizes them in a histogram, offering insights into monthly trends.
 
-## Objective
-
-The primary aim is to provide a reliable and nuanced forecast of receipt amounts, aiding in better decision-making processes for inventory management, financial planning, and business strategy. The model’s additive approach to incorporating trend, seasonal, and residual elements is designed to offer a more accurate and holistic view of future receipt trends.
+The project's outcome is a comprehensive model that not only predicts receipt counts accurately but also visualizes data trends effectively with Streamlit, aiding in informed decision-making.
 
 ## Technology Stack
 
