@@ -1,6 +1,6 @@
 ---
 
-# Tyrell Fetch Submission - Forecasting Receipt Amounts for 2022
+# Forecasting Receipt Amounts for 2022
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
